@@ -87,3 +87,61 @@ header #menu-bar ul li:focus-within > ul,
 header #menu-bar ul li:hover > ul {
     display: block;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px){
+
+    .left-icon {
+        width: 20%;
+    }
+    
+    nav label img {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        list-style: none;
+        padding: 0 3%;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: var(--primary);
+        font-size: 2rem;
+    }
+
+    nav ul li a:hover {
+        background:#4f402c;
+    }
+
+    nav ul li ul {
+        display: none;
+    }
