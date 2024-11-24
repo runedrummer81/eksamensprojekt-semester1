@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cinzel", serif;
+    font-style: normal;
+}
+/* Vores start CSS er designet til mobiler i portait mode */
+:root {
+    --primary: #E7E0D6;
+    --secondary: #9E9984;
+    --tertiary: #868D77;
+    --accent: #AE944A;
+    --contrast: #475133;
+    --extra: #8F7858;
+    --shadow: #4f402c;
+}
+
+
+body {
+    background-color: #E7E0D6;
+} 
+
+header {
+    position: sticky;
+}
+
+header a {
+    display: flex;
+}
+
+.left-icon {
+    width: 12%;
+    height: auto;
+    margin: 0.8rem auto;
+    display: flex;
+}
+
+nav {
+    position: absolute; /* Gør navbaren absolut i forhold til video-containeren */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent sort baggrund */
+    color:#E7E0D6;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    display: none;
+}
+
+
+nav label img {
+    width: 15%;
+    height: auto;
+    margin-right: 2%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 4%;
+}
+
+#menu-bar {
+    display: none;
+}
+
+#menu-bar:checked ~ ul {
+    display: block;
+}
+
+#menu-bar:checked ~ ul li {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#menu-bar:checked ~ ul li a {
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    color: var(--primary);
+    padding: 0.3rem;
+    font-size: 2rem;
+}
+
+header #menu-bar ul li:focus-within > ul,
+header #menu-bar ul li:hover > ul {
+    display: block;
+}

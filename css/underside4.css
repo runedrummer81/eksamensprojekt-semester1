@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cinzel", serif;
+    font-style: normal;
+}
+/* Vores start CSS er designet til mobiler i portait mode */
+:root {
+    --primary: #E7E0D6;
+    --secondary: #9E9984;
+    --tertiary: #868D77;
+    --accent: #AE944A;
+    --contrast: #475133;
+    --extra: #8F7858;
+    --shadow: #4f402c;
+}
