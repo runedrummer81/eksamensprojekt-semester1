@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'fetteegyptienne';
-    src: url(FetteEgyptienne.ttf);
+    src: url(fetteegyptienne.ttf);
 }
 
 /* Vores start CSS er designet til mobiler i portait mode */
@@ -46,7 +46,7 @@ nav {
     color: var(--secondary);
     padding: 1rem 0;
     text-align: center;
-    font-family: 'FetteEgyptienne';
+    font-family: 'fetteegyptienne';
 }
 
 nav ul {
@@ -64,24 +64,6 @@ nav ul {
     width: 100%;
 }
 
-.bigphototext-1 {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    color: var(--primary);
-    padding: 6%;
-    text-shadow: 2px 2px 2px black;
-    
-}
-
-.bigphototext-2 {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    color: var(--primary);
-    padding: 6%;
-    text-shadow: 2px 2px 2px black;
-}
 
 nav label img {
     width: 15%;
