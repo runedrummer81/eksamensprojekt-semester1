@@ -2,9 +2,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Cinzel", serif;
     font-style: normal;
 }
+
+
+@font-face {
+    font-family: 'fetteegyptienne';
+    src: url(FetteEgyptienne.ttf);
+}
+
 /* Vores start CSS er designet til mobiler i portait mode */
 :root {
     --primary: #EFEAC6;
@@ -40,6 +46,7 @@ nav {
     color: var(--secondary);
     padding: 1rem 0;
     text-align: center;
+    font-family: 'FetteEgyptienne';
 }
 
 nav ul {
