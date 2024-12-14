@@ -123,7 +123,7 @@ section {
 }
 
 h1 {
-    font-size: 0.8rem;
+    font-size: 3vw;
     font-family: 'fetteegyptienne';
     margin: 0;
     padding: 0;
@@ -136,7 +136,7 @@ p {
 
 ul {
     list-style-type: none;
-    font-size: 0.5rem;
+    font-size: 2vw;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -147,7 +147,7 @@ ul {
 
 h2 {
     font-family: 'fetteegyptienne';
-    font-size: 1.2rem;
+    font-size: 5vw;
     color: var(--secondary);
     padding-top: 0.5rem;
 }
@@ -157,6 +157,28 @@ hr {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 }
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: var(--tertiary) ; /* baggrund for footeren */
+    color: #000000;          
+    width: 100%;
+    text-align: center;     /* Centrerer tekst og indhold */
+}
+
+
+
+
+footer img {
+    width: 30%;
+    margin-top: 1rem;
+}
+
+
+
 
 
 
