@@ -88,36 +88,47 @@ nav label img {
 .denfrivillige {
     width: 100%;
     margin-top: 25%;
-}
+    height: 11rem; /* gør illustrationen lidt større */
+} 
+
+
 
 .overskriften {
     font-family: 'fetteegyptienne';
-    font-size: 1.2rem;
+    font-size: 2rem;
     text-decoration: underline;
-    margin-left: 0.5rem;
-    margin-top: 1.5rem;
-    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .fordeleuddybet {
-    margin-left: 1.4rem;
-    font-size: 0.8rem;
+    margin-left: 0rem;
+    font-size: 1.5rem;
+    list-style-type: disc;
+    text-align: left;
 }
 
 .forkun5 {
-    margin-left: 0.5rem;
+    margin-left: 0rem;
     margin-top: 0.5rem;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
+    text-decoration: underline;
 }
 
 .tilmeld {
-    width: 50%;
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-.section {
-    text-align: center;
-}
 
+.tekstogillustration{
+    display: flex; /* Flexbox for alignment */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center items horizontally */
+    margin: 1.3rem;
+    
+}
 
 
 
