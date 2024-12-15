@@ -53,17 +53,6 @@ nav ul {
     display: none;
 }
 
-.cover {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    padding-top: 10%;
-}
-
-#bigphoto {
-    width: 100%;
-}
-
 
 nav label img {
     width: 15%;
@@ -94,4 +83,9 @@ nav label img {
     color: var(--secondary);
     padding: 0.3rem;
     font-size: 1.5rem;
+}
+
+.denfrivillige {
+    width: 100%;
+    margin-top: 25%;
 }
