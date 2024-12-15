@@ -95,7 +95,10 @@ nav label img {
 
 body {
     background-image: url("../img/paper.webp");
-    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
 }
 
 .hjerteiaarhus {
@@ -109,6 +112,7 @@ body {
     font-size: 0.8rem;
     margin-left: 1.3rem;
     margin-right: 1.3rem;
+
 }
 
 p {
@@ -142,13 +146,13 @@ p {
 }
 
 .sejoverskrift {
-    font-family: 'typewriter';
+    font-family: 'fetteegyptienne';
     font-size: 0.9rem;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 0.7rem;
     align-self: center;
-    text-decoration: underline;
+    text-align: center;
     
 }
 
@@ -156,7 +160,8 @@ p {
 .sektion3,
 .sektion4,
 .sektion5,
-.sektion6
+.sektion6,
+.sektion7
 {
     display: flex; /* Enables flexbox layout */
     align-items: flex-start; /* Align items at the start */
@@ -175,6 +180,24 @@ p {
 
 .sektion6 {
     margin-top: 1.5rem;
+    font-size: 0.8rem;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+}
+
+.sektion7 {
+    margin-top: 0.7rem;
+    font-size: 0.8rem;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+}
+.sejoverskrift2 {
+    font-family: 'fetteegyptienne';
+    font-size: 0.8rem;
+    margin: 1.3rem;
+    margin-bottom: 0.5rem;
+    align-self: center;
+    text-align: center;
 }
 
 
