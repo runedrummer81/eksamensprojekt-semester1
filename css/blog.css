@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'fetteegyptienne';
+    src: url(fetteegyptienne.ttf);
+}
+
+@font-face {
+    font-family: 'typewriter';
+    src: url(typewriter.TTF);
+}
+
+/* Mit start CSS er designet til mobiler i portait mode */
+:root {
+    --primary: #EFEAC6;
+    --secondary: #FF7600;
+    --tertiary: #009AA0;
+}
+
+header {
+    position: sticky;
+}
+
+header a {
+    display: flex;
+}
+
+.navlogo {
+    width: 14%;
+    height: auto;
+    margin: 0rem auto;
+    display: flex;
+}
+
+body {
+    background-color: var(--primary);
+}
+
+nav {
+    position: absolute; /* Gør navbaren absolut i forhold til video-containeren */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255); /* Semi-transparent sort baggrund */
+    color: var(--secondary);
+    padding: 1rem 0;
+    text-align: center;
+    font-family: 'fetteegyptienne';
+}
+
+nav ul {
+    display: none;
+}
+
+
+
+
+nav label img {
+    width: 15%;
+    height: auto;
+    margin-right: 2%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 4%;
+}
+
+#menu-bar {
+    display: none;
+}
+
+#menu-bar:checked ~ ul {
+    display: block;
+}
+
+#menu-bar:checked ~ ul li {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#menu-bar:checked ~ ul li a {
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    color: var(--secondary);
+    padding: 0.3rem;
+    font-size: 1.5rem;
+}
+
+
+body {
+    background-image: url("../img/paper.webp");
+    
+}
+
+.hjerteiaarhus {
+    width: 100%;
+    padding-top: 22%;
+    justify-content: left;
+}
+
+.introtekst2 {
+    font-family: 'typewriter';
+    font-size: 0.8rem;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+}
+
+p {
+    font-family: 'typewriter';
+    font-size: 0.65rem;
+    margin-left: 0rem;
+    text-align: justify;
+    
+}
+
+.radarskilt {
+    width: 48%;
+    margin: 1.3rem;
+    margin-left: 0.5rem;
+    margin-right: 0; 
+    align-self: flex-start; /* billede og p starter fra samme vertikale linje */
+    margin-top: 0rem; /* finetuner billedets placering */
+    
+}
+
+.article-content {
+    display: flex; /* Enables flexbox layout */
+    align-items: flex-start; /* Align items at the start */
+    margin: 1.3rem;
+    
+}
+
+.article-content p {
+    flex: 1 1 60%; /* Paragraph takes 60% of the width */
+    text-align: justify;
+}
+
+.sejoverskrift {
+    font-family: 'typewriter';
+    font-size: 0.9rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 0.7rem;
+    align-self: center;
+    text-decoration: underline;
+    
+}
+
+.sektion2,
+.sektion3,
+.sektion4,
+.sektion5,
+.sektion6
+{
+    display: flex; /* Enables flexbox layout */
+    align-items: flex-start; /* Align items at the start */
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+    text-align: justify;
+}
+
+.sektion4 {
+    margin-top: 1.5rem;
+}
+
+.sektion5 {
+    margin-top: 1.5rem;
+}
+
+.sektion6 {
+    margin-top: 1.5rem;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #007d81 ; /* baggrund for footeren */
+    color: #000000;          
+    width: 100%;
+    font-family: 'fetteegyptienne';
+    padding-bottom: 1rem;
+    text-align: center;     /* Centrerer tekst og indhold */
+    align-items: flex-start;
+}
+
+.footer-logo {
+    width: 47%; 
+    justify-content: center;
+    justify-self: center;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+  }
+
+  footer ul li{
+    font-size: 0.8rem;
+  }
+
+  .praktiskinfo {
+    color: var(--secondary);
+    font-size: 2.5rem;
+    padding-top: 1rem;
+  }
+
+  .kontakt {
+    color: var(--secondary);
+  }

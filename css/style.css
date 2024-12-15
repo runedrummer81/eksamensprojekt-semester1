@@ -42,7 +42,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(255, 255, 255); /* Semi-transparent sort baggrund */
+    background-color: rgb(255, 255, 255); /* Hvid baggrund */
     color: var(--secondary);
     padding: 1rem 0;
     text-align: center;
@@ -185,24 +185,6 @@ footer {
     text-align: center;     /* Centrerer tekst og indhold */
     align-items: flex-start;
 }
-
-
-/* .footer-section {
-    display: flex;
-    align-items: left;
-    padding: 1rem;
-    font-size: ;
-}
-
-footer ul li {
-    font-size: 0.5rem;
-}
-
-footer img {
-    width: 30%;
-    padding: 0.5rem
-    
-} */
 
 .footer-logo {
     width: 47%; 
