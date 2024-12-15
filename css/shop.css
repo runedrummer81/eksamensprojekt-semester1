@@ -11,6 +11,11 @@
     src: url(fetteegyptienne.ttf);
 }
 
+@font-face {
+    font-family: 'typewriter';
+    src: url(typewriter.TTF);
+}
+
 /* Vores start CSS er designet til mobiler i portait mode */
 :root {
     --primary: #EFEAC6;
@@ -53,16 +58,6 @@ nav ul {
     display: none;
 }
 
-.cover {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    padding-top: 10%;
-}
-
-#bigphoto {
-    width: 100%;
-}
 
 
 nav label img {
@@ -93,5 +88,102 @@ nav label img {
     text-decoration: none;
     color: var(--secondary);
     padding: 0.3rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
+
+
+.tshirts {
+    width: 100%;
+    margin-top: 22%;
+}
+
+.overskrift1 {
+    font-family: 'fetteegyptienne';
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.obs {
+    text-align: center;
+    font-family: 'typewriter';
+    margin: 1rem;
+    font-size: 0.8rem;
+}
+
+
+.showkit {
+    font-family: 'fetteegyptienne';
+    text-align: center;
+    font-size: 2rem;
+    color: var(--secondary);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hypetekst,
+.hypetekst2,
+.merchliste {
+    font-family: 'typewriter';
+    font-size: 0.8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.li1,
+.li2,
+.li3 {
+    margin: 0.7rem;
+}
+
+    
+
+
+
+
+.infographic {
+    width: 100%;
+    margin-bottom: -1%;
+    
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #007d81 ; /* baggrund for footeren */
+    color: #000000;          
+    width: 100%;
+    font-family: 'typewriter';
+    padding-bottom: 1rem;
+    text-align: center;     /* Centrerer tekst og indhold */
+    align-items: flex-start;
+}
+
+.footer-logo {
+    width: 47%; 
+    justify-content: center;
+    justify-self: center;
+    margin: 1rem;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+  }
+
+  footer ul li{
+    font-size: 0.8rem;
+  }
+
+  .praktiskinfo {
+    color: var(--secondary);
+    font-size: 2.5rem;
+    padding-top: 1rem;
+  }
+
+  .kontakt {
+    color: var(--secondary);
+  }

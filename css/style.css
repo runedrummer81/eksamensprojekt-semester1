@@ -11,6 +11,11 @@
     src: url(fetteegyptienne.ttf);
 }
 
+@font-face {
+    font-family: 'typewriter';
+    src: url(typewriter.TTF);
+}
+
 /* Vores start CSS er designet til mobiler i portait mode */
 :root {
     --primary: #EFEAC6;
@@ -109,7 +114,7 @@ section {
 }
 
 .introtekst {
-    font-family: 'fetteegyptienne';
+    font-family: 'typewriter';
     display: flex;
     align-items: center;
     gap: 1%;
