@@ -158,25 +158,77 @@ hr {
     margin-right: 1.5rem;
 }
 
-main {
-    flex: 1;
+/* Slideshowets højde, bredde og fylde samt tiden for dens loop */
+.slideshow {
+    width: 100vw;
+    height: 50vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slideshow 30s ease-in-out infinite;
 }
+@keyframes slideshow {
+    0% { background-image: url("/img/vola.webp"); }
+    33% { background-image: url("/img/workshop.webp"); }
+    66% { background-image: url("/img/turnering.webp"); }
+    100% { background-image: url("/img/vola.webp"); }
+    } 
+
 
 footer {
-    background-color: var(--tertiary) ; /* baggrund for footeren */
+    display: flex;
+    justify-content: space-between;
+    background-color: #007d81 ; /* baggrund for footeren */
     color: #000000;          
     width: 100%;
+    font-family: 'fetteegyptienne';
+    padding-bottom: 1rem;
     text-align: center;     /* Centrerer tekst og indhold */
+    align-items: flex-start;
 }
 
 
+/* .footer-section {
+    display: flex;
+    align-items: left;
+    padding: 1rem;
+    font-size: ;
+}
 
+footer ul li {
+    font-size: 0.5rem;
+}
 
 footer img {
     width: 30%;
-    margin-top: 1rem;
+    padding: 0.5rem
+    
+} */
+
+.footer-logo {
+    width: 47%; 
+    justify-content: center;
+    justify-self: center;
 }
 
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+  }
+
+  footer ul li{
+    font-size: 0.8rem;
+  }
+
+  .praktiskinfo {
+    color: var(--secondary);
+    font-size: 2.5rem;
+    padding-top: 1rem;
+  }
+
+  .kontakt {
+    color: var(--secondary);
+  }
 
 
 
