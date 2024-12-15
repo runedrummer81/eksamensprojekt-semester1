@@ -179,28 +179,42 @@ p {
 }
 
 .sektion6 {
-    margin-top: 1.5rem;
-    font-size: 0.8rem;
+    
     margin-left: 1.3rem;
     margin-right: 1.3rem;
 }
 
 .sektion7 {
-    margin-top: 0.7rem;
-    font-size: 0.8rem;
-    margin-left: 1.3rem;
-    margin-right: 1.3rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    text-align: center;
 }
+
+.sektion8 {
+    text-align: center;
+    margin-left:4rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 0.2rem;
+}
+
 .sejoverskrift2 {
     font-family: 'fetteegyptienne';
     font-size: 0.8rem;
-    margin: 1.3rem;
+    margin-top: 1.5rem;
     margin-bottom: 0.5rem;
     align-self: center;
     text-align: center;
 }
 
-
+.underskrift { /* indstillinger for signaturen. */
+    width: 60%;
+    margin-left: 5rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    transform: rotate(-3deg);
+}
 
 footer {
     display: flex;
