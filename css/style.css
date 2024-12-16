@@ -21,7 +21,17 @@
     src: url(roboto.ttf);
 }
 
-/* Vores start CSS er designet til mobiler i portait mode */
+@font-face {
+    font-family: 'roboto-bold';
+    src: url(roboto-bold.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-italic';
+    src: url(roboto-italic.ttf);
+}
+
+/* Mit start CSS er designet til mobiler(iphone 12 Pro) i portait mode */
 :root {
     --primary: #EFEAC6;
     --secondary: #DE834B;
@@ -37,9 +47,9 @@ header a {
 }
 
 .navlogo {
-    width: 14%;
+    width: 22%;
     height: auto;
-    margin: 0rem auto;
+    margin: -0.6rem auto;
     display: flex;
 }
 
@@ -72,6 +82,7 @@ nav ul {
 
 #bigphoto {
     width: 100%;
+    margin-top: 1rem;
 }
 
 
@@ -134,10 +145,29 @@ section {
 
 .musik2 {
     width: 100%;
+    transition: opacity 0.3s ease;
+}
+
+.musik2:hover {
+    opacity: 0.8;
+}
+
+.hypetextblog1 {
+    margin-top: -1.8rem;
+    margin-right: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    font-family: 'roboto-italic';
+    list-style-type: none;
+    font-size: 3.3vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding-left: 1%;
 }
 
 h1 {
-    font-size: 3vw;
+    font-size: 4vw;
     font-family: 'fetteegyptienne';
     margin: 0;
     padding: 0;
@@ -149,12 +179,7 @@ p {
 }
 
 ul {
-    list-style-type: none;
-    font-size: 2vw;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    padding-left: 1%;
+    
 }
 
 

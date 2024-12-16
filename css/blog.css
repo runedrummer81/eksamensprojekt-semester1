@@ -16,10 +16,6 @@
     src: url(typewriter.TTF);
 }
 
-@font-face {
-    font-family: 'roboto';
-    src: url(roboto.ttf);
-}
 
 /* Mit start CSS er designet til mobiler i portait mode */
 :root {
@@ -37,9 +33,9 @@ header a {
 }
 
 .navlogo {
-    width: 14%;
+    width: 22%;
     height: auto;
-    margin: 0rem auto;
+    margin: -0.6rem auto;
     display: flex;
 }
 

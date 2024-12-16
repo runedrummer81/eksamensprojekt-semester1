@@ -37,9 +37,9 @@ header a {
 }
 
 .navlogo {
-    width: 14%;
+    width: 22%;
     height: auto;
-    margin: 0rem auto;
+    margin: -0.6rem auto;
     display: flex;
 }
 
