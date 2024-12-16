@@ -19,7 +19,7 @@
 /* Vores start CSS er designet til mobiler i portait mode */
 :root {
     --primary: #EFEAC6;
-    --secondary: #FF7600;
+    --secondary: #DE834B;
     --tertiary: #009AA0;
 }
 
@@ -164,7 +164,7 @@ footer {
     margin: 1rem;
 }
 
-ul {
+footer ul {
     list-style-type: none; 
     padding: 0; 
     margin: 0; 
