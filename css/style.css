@@ -360,7 +360,7 @@ hr {
     }
 
     .horisontalnav a{
-        width: 10%;
+        width: auto;
         display: flex;
         flex-direction: row;
         justify-content: left;
