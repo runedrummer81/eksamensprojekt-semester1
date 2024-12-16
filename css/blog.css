@@ -340,3 +340,88 @@ footer ul {
         font-size: 5rem;
         padding-top: 1rem;
       }
+
+
+      @media only screen and (min-width: 1200px){ /* Til computere */
+
+        .horisontalnav .logolink {
+            display: inline-block;
+            margin-left: 5rem;
+            width: 20vw;
+            margin-top: -1.4rem;
+            position: flex;
+        }
+    
+    
+    
+        .horisontalnav {
+            height: 10vw;
+        }
+    
+        .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+        .navbar li {
+            margin: 2rem;
+            margin-top: -2rem;
+            flex-shrink: 0; /* Prevents the image <li> from shrinking */
+            flex-grow: 0; /* Prevents the image <li> from growing */
+        }
+    
+        
+    
+        label{
+        display: none;
+    }
+    
+        .navlogo {
+            display: none;
+        }
+    
+        .horisontalnav label img {
+            display: none;
+        }
+    
+        .horisontalnav a{
+            width: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+    
+        }
+    
+        .horisontalnav ul {
+            display: flex;
+            align-items: center;
+        }
+    
+        .horisontalnav ul li {
+            list-style: none;
+            
+        }
+    
+        
+    
+        .horisontalnav ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 1.8rem;
+            justify-content: justify;
+        }
+    
+        .horisontalnav ul li a:hover {
+            background:var(--secondary);
+        }
+    
+        .horisontalnav ul li:nth-child(2) {
+            position: relative; /* Allows positioning */
+            left:5rem; /* Moves the second <li> (SHOP) upwards */    
+    }
+
+
+}
