@@ -316,10 +316,10 @@ footer ul {
         grid-template-columns: repeat(3, 1fr);
         grid-auto-flow: row;
         gap: 1rem;
-    }
+    }  /* Testimonials folder sig ud side om side på PC */
   }
 
+ 
   
-  }
 
 

@@ -128,8 +128,12 @@ section {
 
 }
 
+.introtekst a {
+    max-width: 60%;
+}
+
 .musik2 {
-    width: 60%;
+    width: 100%;
 }
 
 h1 {
