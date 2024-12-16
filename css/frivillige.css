@@ -96,9 +96,9 @@ nav label img {
 }
 
 .denfrivillige {
-    width: 100%;
-    margin-top: 25%;
-    height: 11rem; /* gør illustrationen lidt større */
+    width: 100vw;
+    height: 45vw;
+    margin-top: 27%;
 } 
 
 
@@ -331,22 +331,52 @@ footer ul {
     .testimonialsgrid {
         grid-template-columns: repeat(1, 1fr);
     }
-}.footer-logo {
-    width: 40%; 
-    justify-content: center;
-    justify-self: center;
-    margin: 1rem;
+
+    #menu-bar:checked ~ ul li a {
+        margin-top: 1.5rem;
+        font-size: 2rem;
+    }
+
+    .overskriften {
+        font-size: 3rem;
+        margin-top: 1.5rem;
+    }
+
+    .fordeleuddybet {
+        font-size: 2rem;
+    }
+
+    .forkun5 {
+        font-size: 2rem;
+    }
+
+    .tilmeld {
+    margin-left: 1.2rem;
+    }
+
+
+    
+    .footer-logo {
+        width: 40%; 
+        justify-content: center;
+        justify-self: center;
+        margin: 1rem;
+    }
+    
+    footer ul li{
+        font-size: 1.8rem;
+      }
+    
+      .praktiskinfo {
+        color: var(--secondary);
+        font-size: 5rem;
+        padding-top: 1rem;
+      }
+
 }
 
-footer ul li{
-    font-size: 1.8rem;
-  }
 
-  .praktiskinfo {
-    color: var(--secondary);
-    font-size: 5rem;
-    padding-top: 1rem;
-  }
+
 
 
 
