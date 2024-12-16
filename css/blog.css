@@ -78,7 +78,7 @@ nav label img {
 
 #menu-bar:checked ~ ul {
     display: block;
-}
+} 
 
 #menu-bar:checked ~ ul li {
     background-color: rgba(255, 255, 255, 0);
@@ -105,7 +105,6 @@ body {
 .hjerteiaarhus {
     width: 100%;
     padding-top: 22%;
-    justify-content: left;
 }
 
 .introtekst2 {
@@ -113,6 +112,7 @@ body {
     font-size: 0.8rem;
     margin-left: 1.3rem;
     margin-right: 1.3rem;
+    width: 90vw;
 
 }
 
@@ -125,7 +125,7 @@ p {
 }
 
 .radarskilt {
-    width: 48%;
+    width: 43vw;
     margin: 1.3rem;
     margin-left: 0.5rem;
     margin-right: 0; 
@@ -135,8 +135,8 @@ p {
 }
 
 .article-content {
-    display: flex; /* Enables flexbox layout */
-    align-items: flex-start; /* Align items at the start */
+    display: flex; 
+    align-items: flex-start; 
     margin: 1.3rem;
     
 }
@@ -148,7 +148,7 @@ p {
 
 .sejoverskrift {
     font-family: 'fetteegyptienne';
-    font-size: 0.9rem;
+    font-size: 3vw;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 0.7rem;
@@ -202,7 +202,7 @@ p {
 
 .sejoverskrift2 {
     font-family: 'fetteegyptienne';
-    font-size: 0.8rem;
+    font-size: 3vw;
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
     align-self: center;
@@ -286,6 +286,39 @@ footer ul {
 
 
   @media only screen and (min-width: 768px) and (orientation: portrait){ /* Til ipad der står op, aka portrait mode */
+
+  
+   main {
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+
+    .introtekst2 {
+        font-size: 1.5rem;
+    }
+
+
+    p {
+        font-size: 1.18rem;
+    }
+
+
+    .sejoverskrift {
+        margin-top: 3rem;
+    }
+
+
+    .sejoverskrift2 {
+        margin-top: 3rem;
+    }
+
+    .underskrift {
+        margin-left: 9rem;
+        margin-right: 9rem;
+    }
+
+
+
 
     .footer-logo {
         width: 40%; 
