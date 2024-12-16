@@ -117,6 +117,10 @@ nav label img {
     font-size: 1.5rem;
 }
 
+.logolink{
+    display: none;
+    width: 40%;
+}
 
 section {
     display: flex;
@@ -305,190 +309,98 @@ hr {
         font-size: 5rem;
         padding-top: 1rem;
       }
+    }
 
 
 
 
+@media only screen and (min-width: 1200px){ /* Til computere */
 
-@media only screen and (min-width: 1200px){
+    .horisontalnav .logolink {
+        display: inline-block;
+        margin-left: 5rem;
+        width: 20vw;
+        margin-top: -1.4rem;
+        position: flex;
+    }
 
- 
-    nav label img {
+
+
+    .horisontalnav {
+        height: 10vw;
+    }
+
+    .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+    .navbar li {
+        margin: 2rem;
+        margin-top: -2rem;
+        flex-shrink: 0; /* Prevents the image <li> from shrinking */
+        flex-grow: 0; /* Prevents the image <li> from growing */
+    }
+
+    
+
+    label{
+    display: none;
+}
+
+    .navlogo {
         display: none;
     }
 
-    nav {
+    .horisontalnav label img {
+        display: none;
+    }
+
+    .horisontalnav a{
+        width: 10%;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: left;
+;
     }
 
-    nav ul {
+    .horisontalnav ul {
         display: flex;
+        align-items: center;
     }
 
-    nav ul li {
+    .horisontalnav ul li {
         list-style: none;
-        padding: 0 3%;
+        
     }
 
-    li:nth-child(2) {
-        padding-right: 25%;
-    }
+    
 
-    nav ul li a {
+    .horisontalnav ul li a {
         text-decoration: none;
         color: black;
-        font-size: 2rem;
+        font-size: 1.8rem;
+        justify-content: justify;
     }
 
-    nav ul li a:hover {
+    .horisontalnav ul li a:hover {
         background:var(--secondary);
     }
 
-    nav ul li ul {
-        display: none;
-    }
+    .horisontalnav ul li:nth-child(2) {
+        position: relative; /* Allows positioning */
+        left:5rem; /* Moves the second <li> (SHOP) upwards */    
 }
     
-
-    @media only screen and (min-width: 1345px)
-    {
-
- 
-        nav label img {
-            display: none;
-        }
-    
-        nav {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            padding-top: 0%;
-        }
-    
-        nav ul {
-            display: flex;
-        }
-    
-        nav ul li {
-            list-style: none;
-            padding: 0 3%;
-        }
-    
-        li:nth-child(2) {
-            padding-right: 32%;
-        }
-
-        li:nth-child(4) {
-            padding-left: 25%;
-        }
-    
-        nav ul li a {
-            text-decoration: none;
-            color: black;
-            font-size: 2rem;
-        }
-    
-        nav ul li a:hover {
-            background:var(--secondary);
-        }
-    
-        nav ul li ul {
-            display: none;
-        }
-
-        .navlogo {
-            padding-top: 30.5%;
-        }
-
-        .logobillede {
-            width: 175px;
-            
-            
-        }
-    
-        nav ul li {
-            list-style: none;
-            padding: 6%;
-        }
-        
-    }
+.cover {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 8.8%;
+}
 
 
-    @media only screen and (min-width: 1900px)
-
- /* {
-
- 
-        nav label img {
-            display: none;
-        }
-    
-        nav {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            padding-top: 0%;
-        }
-    
-        nav ul {
-            display: flex;
-        }
-    
-        nav ul li {
-            list-style: none;
-            display: flex;
-        
-        }
-    
-        li:nth-child(2) {
-            padding-right: 50%;;
-        }
-
-        li:nth-child(4) {
-            padding-left: 50%;
-        }
-    
-        nav ul li a {
-            text-decoration: none;
-            color: black;
-            font-size: 2rem;
-        }
-    
-        nav ul li a:hover {
-            background:var(--secondary);
-        }
-    
-        nav ul li ul {
-            display: none;
-        }
-
-        .navlogo {
-            height: auto;
-            width: 15%;
-        }
-
-        .logobillede {
-            width: 200px;
-            
-            
-        }
-    
-        nav ul li {
-            list-style: none;
-            padding: 6%;
-            display: flex;
-        }
-        
-    } */
-
-    {
-        .navlogo {
-            width: 20%;
-        }
-
-
-
-
-    }
+}
