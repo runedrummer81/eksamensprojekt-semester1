@@ -273,11 +273,35 @@ footer {
     align-items: flex-start;
 }
 
-.footer-logo {
-    width: 47%; 
+.social1,
+.social2,
+.social3,
+.social4
+{
+    width: 40vw;
+}
+
+.social2 {
+    margin-top: -3rem;
+}
+
+.social3 {
+    margin-top: -3rem;
+}
+
+
+
+.footerlogoer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footerradarlogo {
+    width: 40vw; 
     justify-content: center;
     justify-self: center;
-    margin: 1rem;
+    margin-top: -1rem;
 }
 
 footer ul {
@@ -287,7 +311,9 @@ footer ul {
   }
 
   footer ul li{
-    font-size: 0.8rem;
+    font-size: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
   }
 
   .praktiskinfo {
@@ -299,7 +325,6 @@ footer ul {
   .kontakt {
     color: var(--secondary);
   }
-
 
 
   @media only screen and (min-width: 768px) and (orientation: portrait){ /* Til ipad der står op, aka portrait mode */
