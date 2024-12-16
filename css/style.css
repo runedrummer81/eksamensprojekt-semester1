@@ -16,6 +16,11 @@
     src: url(typewriter.TTF);
 }
 
+@font-face {
+    font-family: 'roboto';
+    src: url(roboto.ttf);
+}
+
 /* Vores start CSS er designet til mobiler i portait mode */
 :root {
     --primary: #EFEAC6;
@@ -114,7 +119,7 @@ section {
 }
 
 .introtekst {
-    font-family: 'typewriter';
+    font-family: 'roboto';
     display: flex;
     align-items: center;
     gap: 1%;

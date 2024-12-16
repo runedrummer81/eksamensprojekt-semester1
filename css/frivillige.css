@@ -16,6 +16,11 @@
     src: url(typewriter.TTF);
 }
 
+@font-face {
+    font-family: 'roboto';
+    src: url(roboto.ttf);
+}
+
 /* Vores start CSS er designet til mobiler i portait mode */
 :root {
     --primary: #EFEAC6;
@@ -107,10 +112,12 @@ nav label img {
 }
 
 .fordeleuddybet {
-    margin-left: 0rem;
-    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
     list-style-type: disc;
-    text-align: left;
+    text-align: left; /* teksten går fra venstre mod højre */
+    font-family: 'roboto';
 }
 
 .forkun5 {
@@ -118,6 +125,7 @@ nav label img {
     margin-top: 0.5rem;
     font-size: 1.5rem;
     text-decoration: underline;
+    font-family: 'roboto';
 }
 
 .tilmeld {
@@ -129,8 +137,8 @@ nav label img {
 
 .tekstogillustration{
     display: flex; /* Flexbox for alignment */
-    flex-direction: column; /* Stack children vertically */
-    align-items: center; /* Center items horizontally */
+    flex-direction: column; /* Stacker indholdet */
+    align-items: center; /* Centerer indholdet */
     margin: 1.3rem;
     
 }
@@ -157,11 +165,13 @@ nav label img {
     letter-spacing: 2px;
     font-size: 1rem;
     font-weight: 500;
+    font-family: 'roboto';
 }
 
 .testimonials h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 900;
+    font-family: 'fetteegyptienne';
 }
 
 .testimonialsgrid {
@@ -191,6 +201,7 @@ nav label img {
 .card p{
     font-size: 1rem;
     font-weight: 500;
+    font-family: 'roboto';
 }
 
 
@@ -213,17 +224,19 @@ nav label img {
     font-weight: 400;
     color: var(--secondary);
     transition: .3s;
+    font-family: 'fetteegyptienne';
 }
 
 
 .card .name:hover {
-    color: var(--tertiary);
+    color: aliceblue;
 }
 
 .testimonialfooter h3 {
     font-size: 1.25rem;
     font-weight: 900;
     margin-bottom: 1rem;
+    font-family: 'roboto';
 }
 
 .testimonialfooter p {
@@ -232,6 +245,7 @@ nav label img {
     font-size: 0.9rem;
     line-height: 1.5rem;
     margin-bottom: 2rem;
+    font-family: 'roboto';
 }
 
 .testimonialfooter button {
@@ -244,6 +258,7 @@ nav label img {
     background-color: var(--secondary);
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'fetteegyptienne';
 }
 
 footer {
