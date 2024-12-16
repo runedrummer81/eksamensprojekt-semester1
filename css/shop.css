@@ -214,3 +214,23 @@ footer ul {
   .kontakt {
     color: var(--secondary);
   }
+
+
+  @media only screen and (min-width: 768px) and (orientation: portrait){ /* Til ipad der står op, aka portrait mode */
+
+    .footer-logo {
+        width: 40%; 
+        justify-content: center;
+        justify-self: center;
+        margin: 1rem;
+    }
+
+    footer ul li{
+        font-size: 1.8rem;
+      }
+
+      .praktiskinfo {
+        color: var(--secondary);
+        font-size: 5rem;
+        padding-top: 1rem;
+      }

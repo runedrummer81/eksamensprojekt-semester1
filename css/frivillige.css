@@ -331,7 +331,22 @@ footer ul {
     .testimonialsgrid {
         grid-template-columns: repeat(1, 1fr);
     }
+}.footer-logo {
+    width: 40%; 
+    justify-content: center;
+    justify-self: center;
+    margin: 1rem;
 }
+
+footer ul li{
+    font-size: 1.8rem;
+  }
+
+  .praktiskinfo {
+    color: var(--secondary);
+    font-size: 5rem;
+    padding-top: 1rem;
+  }
 
 
 
