@@ -130,7 +130,116 @@ nav label img {
     
 }
 
+/* herfra begynder testimonials */
+.absoluttestimonial {
+    display: flex;
+    align-items: center;
+}
 
+.testimonial-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.testimonials {
+    margin-bottom: 2rem;
+}
+
+.testimonials p {
+    letter-spacing: 2px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.testimonialsgrid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    padding: 2rem;
+    display: grid;
+    gap: 1rem;
+    background-color: var(--tertiary);
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    color: white;
+}
+
+.card i{
+    font-size: 2.5rem;
+    color: var(--secondary);
+}
+
+.card p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+.card hr {
+    width: 40px;
+    margin: auto;
+    color: #FF7600;
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 100%;
+    border: 1px solid var(--primary);
+}
+
+.card .name {
+    font-size: .9rem;
+    font-weight: 400;
+    color: var(--secondary);
+    transition: .3s;
+}
+
+
+.card .name:hover {
+    color: var(--tertiary);
+}
+
+.testimonialfooter h3 {
+    font-size: 1.25rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.testimonialfooter p {
+    max-width: 450px;
+    margin: auto;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.testimonialfooter button {
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: white;
+    background-color: var(--secondary);
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 footer {
     display: flex;
@@ -170,3 +279,25 @@ ul {
   .kontakt {
     color: var(--secondary);
   }
+
+
+
+  @media only screen and (min-width: 768px) and (orientation: portrait){ /* Til ipad der står op, aka portrait mode */
+    .testimonialsgrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+
+  @media only screen and (min-width: 1200px) {
+    .testimonialsgrid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+  }
+
+  
+  }
+
+
