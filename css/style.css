@@ -429,4 +429,26 @@ h1 {
 }
 
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
 
+.footer-section1 {
+    flex: 1;
+    margin: 0 20px; 
+}
+
+footer ul li{
+    text-align: left;
+    margin-top: 1rem;
+    flex: 1 1 60%; /* Paragraph takes 60% of the width */
+}
+
+.social1,
+.social2,
+.social3,
+.social4 {
+    width: 20vw;
+}
