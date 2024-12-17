@@ -397,7 +397,33 @@ hr {
     width: 100%;
     overflow: hidden;
     padding-top: 8.8%;
+    height: 50vw;
 }
 
+.musik1 {
+    width: 100%;
+    height: 15vw;
+}
+
+.hypetextblog1{
+    font-size: 1.9rem;
+}
+h1 {
+    font-size: 3.17rem;
+}
+
+.beretning {
+    font-size: 2.2rem;
+}
+
+.introtekst a {
+    max-width: 60%;
+}
+
+.musik2 {
+    width: 35vw;
+    transition: opacity 0.3s ease;
+    margin-left: 5.5rem;
+}
 
 }
