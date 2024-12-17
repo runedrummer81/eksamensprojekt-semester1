@@ -391,90 +391,155 @@ footer ul {
         gap: 1rem;
     }  /* Testimonials folder sig ud side om side på PC */
 
-        .horisontalnav .logolink {
-            display: inline-block;
-            margin-left: 5rem;
-            width: 20vw;
-            margin-top: -1.5rem;
-            position: flex;
-        }
-    
-    
-    
-        .horisontalnav {
-            height: 10vw;
-        }
-    
-        .navbar {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-left: 1rem;
-        margin-right: 1rem;
+    nav {
+        position: absolute; /* Gør navbaren absolut i forhold til video-containeren */
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgb(255, 255, 255); /* Semi-transparent sort baggrund */
+        color: var(--secondary);
+        padding: 1rem 0;
+        text-align: center;
+        font-family: 'fetteegyptienne';
     }
     
-        .navbar li {
-            margin: 2rem;
-            margin-top: -2rem;
-            flex-shrink: 0; /* Prevents the image <li> from shrinking */
-            flex-grow: 0; /* Prevents the image <li> from growing */
-        }
-    
+    header nav ul {
+        list-style: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        color: white;
         
+    }
     
-        label{
+
+    header nav ul li {
+        position: relative;
+        padding: 0;
+    }
+    
+    header nav ul li a{
+        text-decoration: none;
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        color: rgb(0, 0, 0);
+        display: block;
+        background: rgb(255, 255, 255);
+        width: 100%;
+    }
+    
+    .sub-menus {
+        width: 140%;
+    }
+    
+    nav ul li a:hover {
+        background: var(--secondary);
+        color: black
+    }
+    
+    nav ul li ul{
+        position: absolute;
+        left: 0;
+        width: 10%;
+        background: white;
+        display: none;
+        z-index: 10;
+    }
+    
+    nav ul li ul li {
+        width: 100%;
+        border-top: 0.5px solid rgb(0, 0, 0);
+    }
+    
+    nav ul li ul li ul {
+        left: 12.5rem;
+        top: 0;
+    }
+    
+    nav ul li:focus-within > ul,
+    nav ul li:hover > ul{
+        display: block;
+        z-index: 10;
+    }
+    
+    .navlogo{
         display: none;
     }
-    
-        .navlogo {
-            display: none;
-        }
-    
-        .horisontalnav label img {
-            display: none;
-        }
-    
-        .horisontalnav a{
-            width: auto;
-            display: flex;
-            flex-direction: row;
-            justify-content: left;
-    
-        }
-    
-        .horisontalnav ul {
-            display: flex;
-            align-items: center;
-        }
-    
-        .horisontalnav ul li {
-            list-style: none;
-            
-        }
-    
-        
-    
-        .horisontalnav ul li a {
-            text-decoration: none;
-            color: black;
-            font-size: 1.8rem;
-            justify-content: justify;
-        }
-    
-        .horisontalnav ul li a:hover {
-            background:var(--secondary);
-        }
-    
-        .horisontalnav ul li:nth-child(2) {
-            position: relative; /* Allows positioning */
-            left:5rem; /* Moves the second <li> (SHOP) upwards */    
+
+    nav label img{
+        display: none;
     }
 
     .denfrivillige {
-        margin-top: 11%;
+        margin-top: 20%;
+    }
+
+    .tekstogillustration {
+        display: flex;
+
+        
+    }
+
+
+    .tilmeld {
+        width: 40%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    
+
+    .overskriften {
+        font-family: 'fetteegyptienne';
+        font-size: 3.5rem;
+        text-decoration: underline;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        }
+    
+        .footer-section1 {
+        flex: 1;
+        margin: 0 20px; 
+        }
+    
+        footer ul li{
+        text-align: left;
+        margin-top: 1rem;
+        flex: 1 1 60%; 
+    }
+
+    .footerlogoer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+grid-auto-flow: row;
+gap: 1rem;
+    }
+
+    .social2{
+        margin-top: 0rem;
+    }
+    .social3 {
+        margin-top: 0rem;
+    }
+
+    .social1,
+    .social2,
+    .social3,
+    .social4 {
+    width: 120px;
     }
 
 }
+
+
 
   
 

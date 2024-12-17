@@ -402,6 +402,18 @@ hr {
                 display: flex;
                 margin-top: -1rem;
             }
+
+
+            .logo-item a {
+                display: inline-flex; /* Allow alignment control */
+                background: none; /* Remove any default background */
+                border: none; /* Remove unwanted border styles */
+            }
+
+            .logoitem img{
+                display: block; /* Prevent inline padding/margin from affecting layout */
+    background: transparent;
+            }
         
             .cover {
                 position: relative;
