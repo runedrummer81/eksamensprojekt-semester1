@@ -119,7 +119,7 @@ nav label img {
 
 .logolink{
     display: none;
-    width: 40%;
+    
 }
 
 section {
@@ -313,90 +313,92 @@ hr {
 
 @media only screen and (min-width: 1200px){ /* Til computere */
 
-    .horisontalnav .logolink {
-        display: inline-block;
-        margin-left: 5rem;
-        width: 20vw;
-        margin-top: -1.4rem;
-        position: flex;
+    header nav {
+        background-color: rgb(255, 255, 255);
+        height: 16%;
+        width: 100%;
     }
-
-
-
-    .horisontalnav {
-        height: 10vw;
-    }
-
-    .navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-
-    .navbar li {
-        margin: 2rem;
-        margin-top: -2rem;
-        flex-shrink: 0; /* Prevents the image <li> from shrinking */
-        flex-grow: 0; /* Prevents the image <li> from growing */
-    }
-
     
-
-    label{
-    display: none;
-}
-
-    .navlogo {
-        display: none;
-    }
-
-    .horisontalnav label img {
-        display: none;
-    }
-
-    .horisontalnav a{
-        width: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: left;
-;
-    }
-
-    .horisontalnav ul {
-        display: flex;
-        align-items: center;
-    }
-
-    .horisontalnav ul li {
+    header nav ul {
         list-style: none;
-        
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    
+
+    header nav ul li {
+        position: relative;
+        padding: 0;
+    }
+    
+    header nav ul li a{
+        text-decoration: none;
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        color: rgb(0, 0, 0);
+        display: block;
+        background: rgb(255, 255, 255);
+        width: 100%;
+    }
+    
+    .sub-menus {
+        width: 140%;
+    }
+    
+    nav ul li a:hover {
+        background: var(--secondary);
+        color: black
+    }
+    
+    nav ul li ul{
+        position: absolute;
+        left: 0;
+        width: 10%;
+        background: white;
+        display: none;
+        z-index: 10;
+    }
+    
+    nav ul li ul li {
+        width: 100%;
+        border-top: 0.5px solid rgb(0, 0, 0);
+    }
+    
+    nav ul li ul li ul {
+        left: 12.5rem;
+        top: 0;
+    }
+    
+    nav ul li:focus-within > ul,
+    nav ul li:hover > ul{
+        display: block;
+        z-index: 10;
+    }
+    
+    .navlogo{
+        display: none;
+    }
+
+    nav label img{
+        display: none;
     }
 
     
-
-    .horisontalnav ul li a {
-        text-decoration: none;
-        color: black;
-        font-size: 1.8rem;
-        justify-content: justify;
+    .logolink {
+        width: 15vw;
+            display: inline-block;
+            position: flex;
+            margin-top: -1rem;
+        }
     }
-
-    .horisontalnav ul li a:hover {
-        background:var(--secondary);
-    }
-
-    .horisontalnav ul li:nth-child(2) {
-        position: relative; /* Allows positioning */
-        left:5rem; /* Moves the second <li> (SHOP) upwards */    
-}
     
 .cover {
     position: relative;
     width: 100%;
     overflow: hidden;
-    padding-top: 8.8%;
+    padding-top: 6%;
     height: 50vw;
 }
 
@@ -426,4 +428,5 @@ h1 {
     margin-left: 5.5rem;
 }
 
-}
+
+
