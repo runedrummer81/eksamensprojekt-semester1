@@ -156,19 +156,19 @@ section {
     opacity: 0.8;
 }
 
-.hypetextblog1 {
+    .hypetextblog1 {
     margin-top: -1.8rem;
     margin-right: 0.5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     text-align: left;
     font-family: 'roboto-italic';
     list-style-type: none;
-    font-size: 3.3vw;
+    font-size: 0.8rem;
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
-    padding-left: 1%;
-}
+    gap: 0.5rem;
+    padding-left: 1%;   
+ }
 
 h1 {
     font-size: 4vw;
@@ -282,8 +282,7 @@ hr {
 
 
 
-
-@media only screen and (min-width: 768px) and (orientation: portrait){ /* Til ipad der står op, aka portrait mode */
+@media only screen and (min-width: 768px){ /* Til ipad der står op, aka portrait mode */
 
     #menu-bar:checked ~ ul li a {
         margin-top: 1.5rem;
@@ -306,12 +305,27 @@ hr {
         font-size: 5rem;
         padding-top: 1rem;
       }
+
+      .hypetextblog1 {
+        margin-top: -1.8rem;
+        margin-right: 2rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        text-align: left;
+        font-family: 'roboto-italic';
+        list-style-type: none;
+        font-size: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding-left: 1%;
+    }
+
+
     }
 
 
 
-
-@media only screen and (min-width: 1200px){ /* Til computere */
+    /* @media only screen and (min-width: 1200px){ 
 
     header nav {
         background-color: rgb(255, 255, 255);
@@ -389,66 +403,35 @@ hr {
     .logolink {
         width: 15vw;
             display: inline-block;
-            position: flex;
+            display: flex;
             margin-top: -1rem;
         }
     }
-    
-.cover {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    padding-top: 6%;
-    height: 50vw;
-}
 
-.musik1 {
-    width: 100%;
-    height: 15vw;
-}
+    .hypetextblog1{
+        font-size: 2.5rem;
+    }
 
-.hypetextblog1{
-    font-size: 1.9rem;
-}
-h1 {
-    font-size: 3.17rem;
-}
-
-.beretning {
-    font-size: 2.2rem;
-}
-
-.introtekst a {
-    max-width: 60%;
-}
-
-.musik2 {
-    width: 35vw;
-    transition: opacity 0.3s ease;
-    margin-left: 5.5rem;
-}
-
-
-.footer {
+    .footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-}
+    }
 
-.footer-section1 {
+    .footer-section1 {
     flex: 1;
     margin: 0 20px; 
-}
+    }
 
-footer ul li{
+    footer ul li{
     text-align: left;
     margin-top: 1rem;
     flex: 1 1 60%; /* Paragraph takes 60% of the width */
-}
+    
 
-.social1,
-.social2,
-.social3,
-.social4 {
-    width: 20vw;
-}
+    /* .social1,
+    .social2,
+    .social3,
+    .social4 {
+    width: 100px;
+    } */ 
