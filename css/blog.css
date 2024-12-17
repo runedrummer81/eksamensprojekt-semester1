@@ -93,6 +93,9 @@ nav label img {
     font-size: 1.5rem;
 }
 
+.logolink{
+    display: none;
+}
 
 body {
     background-image: url("../img/paper.webp");
