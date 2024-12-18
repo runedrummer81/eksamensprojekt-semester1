@@ -355,6 +355,10 @@ footer ul {
             font-family: 'fetteegyptienne';
         }
         
+        header nav {
+            height: 97px;
+        }
+
         header nav ul {
             list-style: none;
             width: 100%;

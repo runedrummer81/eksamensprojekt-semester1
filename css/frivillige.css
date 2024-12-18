@@ -410,6 +410,10 @@ footer ul {
         text-align: center;
         font-family: 'fetteegyptienne';
     }
+
+    header nav {
+        height: 97px;
+    }
     
     header nav ul {
         list-style: none;
@@ -487,7 +491,7 @@ footer ul {
         }
 
     .denfrivillige {
-        margin-top: 20%;
+        margin-top: 7%;
     }
 
     .tekstogillustration {
