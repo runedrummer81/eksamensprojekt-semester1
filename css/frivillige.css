@@ -476,15 +476,15 @@ footer ul {
 
     .tekstogillustration {
         display: flex;
-
-        
+        flex-direction: row;
+        margin-left: 5rem;
     }
 
 
     .tilmeld {
-        width: 40%;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+       width: 40%;
+       margin-left: 9rem;
+       
     }
 
     
@@ -497,6 +497,14 @@ footer ul {
         margin-bottom: 1rem;
     }
 
+
+    p {
+    text-align: left;
+    }
+
+    .name {
+        text-align: center;
+    }
 
 
     .footer {
