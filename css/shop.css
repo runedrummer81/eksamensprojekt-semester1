@@ -48,11 +48,11 @@ body {
 }
 
 nav {
-    position: absolute; /* Gør navbaren absolut i forhold til video-containeren */
+    position: absolute; /* Gør navbaren absolut */
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(255, 255, 255); /* Semi-transparent sort baggrund */
+    background-color: rgb(255, 255, 255); /* hvid baggrund */
     color: var(--secondary);
     padding: 1rem 0;
     text-align: center;

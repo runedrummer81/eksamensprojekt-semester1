@@ -5,7 +5,7 @@
     font-style: normal;
 }
 
-
+/* Her er listen de forskellige fonts */
 @font-face {
     font-family: 'fetteegyptienne';
     src: url(fetteegyptienne.ttf);
@@ -32,7 +32,8 @@
 }
 
 /* Mit start CSS er designet til mobiler(iphone 12 Pro) i portait mode */
-:root {
+
+:root { /* mine valgte farver */
     --primary: #EFEAC6;
     --secondary: #DE834B;
     --tertiary: #009AA0;
@@ -323,13 +324,13 @@ hr {
 
     @media only screen and (min-width: 1200px) {
 
-        header nav {
+        header nav { /* bestemmer baggrundfarve, højde og bredde for navbaren*/
             background-color: rgb(255, 255, 255);
             height: 16%;
             width: 100%;
         }
         
-        header nav ul {
+        header nav ul { /* styling af navbaren*/
             list-style: none;
             width: 100%;
             display: flex;
@@ -338,12 +339,12 @@ hr {
         
         
     
-        header nav ul li {
+        header nav ul li { /* definerer positionen for navbaren*/
             position: relative;
             padding: 0;
         }
         
-        header nav ul li a{
+        header nav ul li a{ /* styling af links i navbaren*/
             text-decoration: none;
             font-size: 1.5rem;
             margin-top: 3rem;
@@ -353,42 +354,42 @@ hr {
             width: 100%;
         }
         
-        .sub-menus {
+        .sub-menus { /* lidt ekstra bredde på til submenuerne*/
             width: 140%;
         }
         
-        nav ul li a:hover {
+        nav ul li a:hover { /* styling af navigationsbaren når der er hover-tilstand*/
             background: var(--secondary);
             color: black
         }
         
-        nav ul li ul{
+        nav ul li ul{ /* styling af dropdown menuen i navbaren*/
             position: absolute;
             left: 0;
             width: 10%;
             background: white;
             display: none;
-            z-index: 10;
+            z-index: 10; /* Sikrer 'stablings-rækkefølgen' så at den ligger øverst*/
         }
         
-        nav ul li ul li {
+        nav ul li ul li { /* styling af list-items i dropdown-menuen*/
             width: 100%;
             border-top: 0.5px solid rgb(0, 0, 0);
         }
         
-        nav ul li ul li ul {
+        nav ul li ul li ul { /* styling af den nestede dropdown-menu*/
             left: 12.5rem;
             top: 0;
         }
         
         nav ul li:focus-within > ul,
-        nav ul li:hover > ul{
+        nav ul li:hover > ul{ /* Definerer display af dropdown menu på hover/fokus*/
             display: block;
-            z-index: 10;
+            z-index: 10; /* sikrer 'stablings-røkkefølgen' */
         }
         
         .navlogo{
-            display: none;
+            display: none; /* sikrer at det specifikke billede der bliver brugt i navbaren under 1200px ikke bliver vist*/
         }
     
         nav label img{
@@ -405,13 +406,13 @@ hr {
 
 
             .logo-item a {
-                display: inline-flex; /* Allow alignment control */
-                background: none; /* Remove any default background */
-                border: none; /* Remove unwanted border styles */
+                display: inline-flex; 
+                background: none; 
+                border: none; 
             }
 
             .logoitem img{
-                display: block; /* Prevent inline padding/margin from affecting layout */
+                display: block; 
     background: transparent;
             }
         

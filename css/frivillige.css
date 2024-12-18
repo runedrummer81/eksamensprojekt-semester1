@@ -48,11 +48,11 @@ body {
 }
 
 nav {
-    position: absolute; /* Gør navbaren absolut i forhold til video-containeren */
+    position: absolute; /* Gør navbaren absolut */
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(255, 255, 255); /* Semi-transparent sort baggrund */
+    background-color: rgb(255, 255, 255); /* hvid baggrund */
     color: var(--secondary);
     padding: 1rem 0;
     text-align: center;
@@ -144,6 +144,14 @@ nav label img {
     align-items: center; /* Centerer indholdet */
     margin: 1.3rem;
     
+}
+
+p {
+    text-align: left;
+}
+
+.name {
+    text-align: center;
 }
 
 /* herfra begynder testimonials */
@@ -293,7 +301,6 @@ footer {
 }
 
 
-
 .footerlogoer {
     display: flex;
     flex-direction: column;
@@ -317,6 +324,7 @@ footer ul {
     font-size: 1rem;
     margin-right: 1rem;
     margin-left: 1rem;
+    text-align: left;
   }
 
   .praktiskinfo {
@@ -469,6 +477,14 @@ footer ul {
     nav label img{
         display: none;
     }
+
+    
+    .logolink {
+        width: 15vw;
+            display: inline-block;
+            display: flex;
+            margin-top: -1rem;
+        }
 
     .denfrivillige {
         margin-top: 20%;
