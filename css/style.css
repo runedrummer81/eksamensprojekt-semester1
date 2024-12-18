@@ -243,7 +243,17 @@ hr {
         margin-top: -3rem;
     }
     
-    
+    .bold span {
+        font-weight: bold;
+    }
+
+    .bolder span {
+        font-weight: bold;
+    }
+
+    .beretning span {
+        font-weight: bold;
+    }
     
     .footerlogoer {
         display: flex;

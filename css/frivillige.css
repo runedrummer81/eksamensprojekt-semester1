@@ -106,6 +106,10 @@ nav label img {
 }
 
 
+.bold span {
+    font-weight: bold;
+}
+
 .overskriften {
     font-family: 'fetteegyptienne';
     font-size: 2rem;
@@ -129,6 +133,10 @@ nav label img {
     font-size: 1.5rem;
     text-decoration: underline;
     font-family: 'roboto';
+}
+
+.forkun5 span{
+    font-weight: bold;
 }
 
 .tilmeld {
