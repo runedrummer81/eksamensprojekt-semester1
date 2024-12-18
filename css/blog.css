@@ -39,9 +39,7 @@ header a {
     display: flex;
 }
 
-body {
-    background-color: var(--primary);
-}
+
 
 nav {
     position: absolute; /* Gør navbaren absolut i forhold til video-containeren */
@@ -490,5 +488,136 @@ footer ul {
             }
 
         }
+
+
+
+        @media only screen and (min-width: 1900px){ 
+
+            header nav { /* bestemmer baggrundfarve, højde og bredde for navbaren*/
+                background-color: rgb(255, 255, 255);
+                height: 154px;
+                width: 100%;
+                position: absolute;
+            }
+            
+            header nav ul { /* styling af navbaren*/
+                list-style: none;
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+            
+            
+        
+            header nav ul li { /* definerer positionen for navbaren*/
+                position: relative;
+                padding: 0;
+            }
+            
+            header nav ul li a{ /* styling af links i navbaren*/
+                text-decoration: none;
+                font-size: 2.5rem;
+                margin-top: 5rem;
+                color: rgb(0, 0, 0);
+                display: block;
+                background: rgb(255, 255, 255);
+                width: 100%;
+            }
+
+
+            .hjerteiaarhus {
+                width: 100%;
+                padding-top: 15%;
+            }
+
+            body {
+                background-image: url("../img/paper.webp");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        
+            
+            .radarskilt {
+                width: 35%;
+                margin-left: 1.5rem;
+                margin-right: 4.5rem; 
+                align-self: flex-start; /* billede og p starter fra samme vertikale linje */
+                margin-top: 0rem; /* finetuner billedets placering */
+                
+            }
+            
+
+            .introtekst2{
+                font-size: 2.7rem;
+                margin-left: 4.5rem;
+            }
+
+            .article-content {
+                display: flex; 
+                align-items: flex-start; 
+                margin-left: 4.5rem;
+            }
+            
+            .article-content p {
+                flex: 1 1 60%; 
+                text-align: justify;
+                font-size: 3rem;
+            }
+            
+            .sejoverskrift {
+                font-family: 'fetteegyptienne';
+                font-size: 3vw;
+                margin-left: 2rem;
+                margin-right: 2rem;
+                margin-bottom: 0.7rem;
+                align-self: center;
+                text-align: center;
+                
+            }
+
+            .sektion2,
+            .sektion3,
+            .sektion4,
+            .sektion5,
+            .sektion6,
+            .sektion7,
+            .sektion8{
+                font-size: 2.3rem;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                margin-left: 4.5rem;
+                margin-right: 4.5rem;
+            }
+
+            .underskrift{
+                margin-left: 25rem;
+            }
+            
+
+
+
+            .social1,
+            .social2,
+            .social3,
+            .social4 {
+            width: 220px;
+            }
+
+
+            .praktiskinfo {
+                font-size: 7rem;
+            }
+
+            footer ul li{
+                font-size: 3rem;
+                margin-right: 1rem;
+                margin-left: 1rem;
+              }
+            
+
+
+
+        
 
 }
