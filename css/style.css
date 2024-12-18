@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: 'typewriter';
-    src: url(typewriter.TTF);
+    src: url(typewriter.ttf);
 }
 
 @font-face {
@@ -223,7 +223,7 @@ hr {
         width: 100%;
         font-family: 'typewriter';
         padding-bottom: 1rem;
-        text-align: center;     /* Centrerer tekst og indhold */
+        text-align: left;     /* Centrerer tekst og indhold */
         align-items: flex-start;
     }
     

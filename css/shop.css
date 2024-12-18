@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: 'typewriter';
-    src: url(typewriter.TTF);
+    src: url(typewriter.ttf);
 }
 
 @font-face {
@@ -209,6 +209,7 @@ footer ul {
     font-size: 1rem;
     margin-right: 1rem;
     margin-left: 1rem;
+    text-align: left;
   }
 
   .praktiskinfo {
