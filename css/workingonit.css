@@ -56,3 +56,8 @@ button {
 button:hover {
     opacity: 0.8;
 }
+
+
+.notfound{
+    width: 100%;
+}
